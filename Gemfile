@@ -24,6 +24,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "autoprefixer-rails"
 gem "normalize-rails", "~> 3.0.0"
 gem 'lograge', '~> 0.3.5'
+gem 'devise'
 
 group :development do
   gem "puma"
@@ -51,4 +52,5 @@ group :test do
   gem "launchy"
   gem "shoulda-matchers"
   gem "simplecov", require: false
+  gem "ffaker"
 end
